@@ -44,7 +44,7 @@ public class zad2 {
                     for (int b1 = 0; b1 < collen; b1++) {
                         if (a != a1 && b != b1) {
                             int score = A[a][b] + A[a1][b1];
-                            maxwin = Math.max(maxwin, score);
+                            maxwin = Math.max(maxwin, score); //anita maxwynn
                         }
                     }
                 }
