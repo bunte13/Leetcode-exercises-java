@@ -28,9 +28,9 @@ public class zad1 {
 
         // Iterate through test cases
         for (String testCase : testCases) {
-            int result = solution(testCase); // Call the solution method
+            int result = solution(testCase); 
 
-            // Print the test case and the result
+            
             System.out.println("Test Case: " + testCase);
             System.out.println("Minimum swaps needed: " + result);
             System.out.println();

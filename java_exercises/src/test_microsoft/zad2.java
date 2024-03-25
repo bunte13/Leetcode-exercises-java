@@ -9,21 +9,21 @@ public class zad2 {
     public static void main(String[] args) {
         // Test cases
         int[][][] testCases = {
-            // Test case 1: 2x2 chessboard
+            // Test case 1
             {
                 {1, 4},
                 {2, 3}
             },
-            // Test case 2: 3x3 chessboard
+            // Test case 2
             {
                 {15, 1, 5},
                 {16, 3, 8},
                 {2, 6, 4}
             },
-            // Add more test cases as needed
+            
         };
 
-        // Iterate through test cases
+       
         for (int i = 0; i < testCases.length; i++) {
             int[][] chessboard = testCases[i];
             int maxScore = maxRookScore(chessboard);
